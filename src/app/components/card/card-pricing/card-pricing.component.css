@@ -1,22 +1,26 @@
-.card-pricing__container{
+.card-pricing__container {
 	position: absolute;
-	bottom:0px;
+	bottom: 0px;
 	left: 0;
+	/* Ao usar position:absolute, é necessário passar coordenadas!*/
+
 	display: flex;
 	flex-direction: column;
+
 	width: 100%;
 	height: 70px;
-	background-color: rgba(0,0,0,0.8);
+
+	background-color: rgba(0, 0, 0, 0.7);
 	padding: 10px;
 	color: antiquewhite;
 	font-family: Calibri;
 }
 
-.card-pricing__title{
+.card-pricing__title {
 	margin-bottom: 3px;
 }
 
-.card-pricing__value{
+.card-pricing__value {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -27,8 +31,8 @@
 	flex-direction: row;
 }
 
-.card-pricing__value__console > span{
-	font-weight: bolder;
-	color:aqua;
+.card-pricing__value__console > span {
+	font-weight: bold;
 	margin-right: 10px;
+	color:blue;
 }

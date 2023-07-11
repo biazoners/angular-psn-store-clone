@@ -1,6 +1,6 @@
-.card__container{
+.card__container {
 	position: relative;
-	border:3px solid #3E4357;
+	border: 3px solid #3e4357;
 	border-radius: 10px;
 	width: 350px;
 	height: 500px;
@@ -17,5 +17,5 @@
 }
 
 .card__img:hover{
-	transform: scale(1.1);
+transform: scale(105%);
 }
